@@ -1,0 +1,123 @@
+body {
+    font-size: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.intro {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    
+    background: 
+    url("../images/tex.jpg") center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.header__logo{
+    
+}
+
+.intro__inner{
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.intro__title {
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.intro__suptitle {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.intro__about {
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.intro__adress {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: none;
+    text-align: center;
+}
+
+.catalog__item {
+    text-align: center;
+}
+
+.product__title {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.product__description {
+    font-size: 15px;
+    text-transform: none;
+    text-align: center;
+}
+
+.page__btn {
+    font-size: 15px;
+    text-transform: none;
+    text-align: center;
+}
+
+.mapouter{
+    
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+
+.gmap_canvas{
+    overflow:hidden;
+    background:none!important;
+    height:100px;
+    width:100px;
+}
+
+./intro__adress{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__logo {
+    font-size: 30px;
+    font-weight: 700;
+}
